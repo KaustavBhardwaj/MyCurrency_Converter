@@ -1,0 +1,27 @@
+name: Team Workflow Display
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  show-roles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display Team Roles
+        run: |
+          echo "👨‍💻 Student 1: Site Developer - Building website"
+          echo "🛠 Student 2: UI/UX Designer and Tester"
+          echo "🎨 Student 3: Frontend Developer"
+          echo "✍ Student 4: Bug Fixer - Fixing bugs"
+          echo "🧪 Student 5: Tester/Documentation"
+          
+      - name: Confirm Tasks
+        run: echo "✅ Workflow setup for all team members completed."
