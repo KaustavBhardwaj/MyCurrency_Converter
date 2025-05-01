@@ -38,7 +38,7 @@ input {
 }
 
 form input {
-    border: 2px solid #f78536;
+    border: 1.75px solid #f78536;
     font-size: 1rem;
     height: 3rem;
     padding-left: 0.5rem;
