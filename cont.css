@@ -1,4 +1,4 @@
-    /* General Reset and Body Styles */
+    /* General Styles */
     
     * {
         margin: 0;
@@ -35,7 +35,7 @@
     nav ul {
         list-style: none;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 10.5px;
     }
     
     nav ul li {
@@ -75,7 +75,7 @@
     
     .form-container h2 {
         font-size: 2rem;
-        margin-bottom: 19px;
+        margin-bottom: 20px;
         text-align: center;
     }
     
@@ -178,7 +178,7 @@
         .form-container,
         .contact-info {
             margin-left: 0;
-            margin-bottom: 19px;
+            margin-bottom: 20px;
         }
         .map-container iframe {
             max-width: 100%;
